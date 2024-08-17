@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 100vh;
+    background-color: #f5b041;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.inputText{
+    position: relative;
+    width: 550px;
+}
+
+.inputText input{
+    position: absolute;
+    width: 100%;
+    outline: none;
+    border: 2px solid #f10f80;
+    border-radius: 6px;
+    padding: 13px;
+}
+
+.inputText label{
+    position: absolute;
+    transform: translate(15px, 13px);
+    transition: 0.5s;
+}
+
+input:focus,
+input:valid{
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+input:focus + label,
+input:valid + label{
+    transform: translate(35px, -11px) scale(0.8);
+    background-color: #000;
+    color: #fff;
+    padding: 2px 8px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+}
+
+/* Thank You! */
+
+how to this is a how t  aosdf asdfb  asadf 
